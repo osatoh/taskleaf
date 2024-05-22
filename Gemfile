@@ -23,6 +23,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'repl_type_completor'
   gem 'web-console'
 end
 
