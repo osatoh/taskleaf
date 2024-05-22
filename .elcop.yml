@@ -9,7 +9,6 @@ require:
 AllCops:
   NewCops: enable
   Exclude: # 自動生成ファイルを除外する
-    - 'Gemfile'
     - 'bin/*'
     - 'db/schema.rb'
     - 'config/puma.rb'
@@ -105,7 +104,7 @@ Style/OptionalBooleanParameter:
 Style/QuotedSymbols:
   Enabled: false
 Style/StringLiterals:
-  Enabled: false
+  Enabled: true
 Style/StringLiteralsInInterpolation:
   Enabled: false
 Style/SymbolArray:
